@@ -1,4 +1,4 @@
-<?php
+
 $i = 1;
 echo color('yellow', "[+] "). 'Masukan List Account :  ';
 $listadd = trim(fgets(STDIN));
@@ -205,4 +205,4 @@ function save($data, $file)
 		fwrite($handle, $data);
 		fclose($handle);
 	}
-?>
+
